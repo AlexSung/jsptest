@@ -1,0 +1,18 @@
+create database adms;
+use adms;
+
+
+create table admin(
+ admin_id varchar(16) primary key,
+ admin_psw varchar(16)
+)charset=utf8;
+
+create table user(
+ user_id varchar(16) primary key,
+ user_psw varchar(16)
+)charset=utf8;
+
+
+insert into admin values('admin','admin');
+insert into user values('1','1');
+
